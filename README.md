@@ -25,3 +25,4 @@ Then run:  `docker run --env-file /path/to/env/file -p 8086:8086 -v /path/to/mou
 The application is very lightweight when compiled with the `--release` flag, using `<10 MB` of memory and barely utilizing the CPU. It sends data to InfluxDB via HTTP requests locally.  
 
 # Example dashboard (Influx UI)
+![Inlux UI Dashboard](https://github.com/ikeratzakis/system-monitoring/blob/main/images/dashboard.png?raw=true)
